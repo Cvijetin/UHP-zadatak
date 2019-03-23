@@ -13,54 +13,88 @@
     <!-- CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header class="background">
+    <section class="landing-page">
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#"> <img src="content/UHP_logo.png" /></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">NEWS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CAREERS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PEOPLE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                    </ul>
+        <div class="topnav" id="myTopnav">
+            <span><img class="logo" src="content/uhp-logo.svg" /></span>
+            <a href="#" class="menu">CONTACT</a>
+            <a href="#" class="select-menu">ABOUT US</a>
+            <a href="#" class="select-menu">PEOPLE</a>
+            <a href="#" class="select-menu">CAREER</a>
+            <a href="#" class="select-menu">NEWS</a>
+            <a href="#" class="select-menu">HOME</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div class="row header-graphic">
+            <div class="col-lg-6 col-md-4 col-sm-12 title-wrapper">
+                <div class="">
+                    <h1>Web and mobile</h1>
+                    <h1 class="blue">development</h1>
+                    <h1>specialists</h1>
+                </div>
+                <div class="cta-wrapper">
+                    <button class="btn cta-btn">LET'S GO DIGITAL</button>
                 </div>
             </div>
-        </nav>
-    </header>
-    <!-- Page Content -->
-    
+            <div class="col-lg-6 col-md-8 col-sm-12 graphic-wrapper">
+                <img src="content/header-graphic.svg" />
+            </div>
+        </div>
+
+        <hr />
+
+        <h2 class="center">Our services</h2>
+
+        <div class="services-wrapper row justify-content-center">
+            <div class="col-lg-3 cards">
+                <div class="service-graphic-wrapper">
+                    <img src="content/web-development.svg" />
+                </div>
+                <h3>WEB DEVELOPMENT</h3>
+            </div>
+            <div class="col-lg-3 cards">
+                <div class="service-graphic-wrapper">
+                    <img src="content/mobile-development.svg" />
+                </div>
+                <h3>MOBILE DEVELOPMENT</h3>
+                <div>
+            </div>
+            </div>
+            <div class="col-lg-3 cards">
+                <div class="service-graphic-wrapper">
+                    <img src="content/production-design.svg" />
+                </div>
+                <h3>PRODUCT DESIGN</h3>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
