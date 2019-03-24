@@ -17,7 +17,8 @@
     <link href="mobile.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
-
+    <!-- Helpers -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -32,7 +33,7 @@
             <a href="#" class="select-menu">CAREER</a>
             <a href="#" class="select-menu">NEWS</a>
             <a href="#" class="select-menu">HOME</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icons" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
@@ -144,10 +145,17 @@
             </div>
         </div>
     </section>
+
+    <div class="your-class">
+            <div><img class="client-mobile-2nd" src="content/herbalife-iphoneX.png" /></div>
+            <div><img class="client-mobile-2nd" src="content/herbalife-iphoneX.png" /></div>
+            <div><img class="client-mobile-2nd" src="content/herbalife-iphoneX.png" /></div>
+          </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -157,6 +165,34 @@
                 x.className = "topnav";
             }
         }
+    </script>
+    <script>
+   
+$('.your-class').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
     </script>
 </body>
 

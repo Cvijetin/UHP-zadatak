@@ -39,13 +39,13 @@
     background-color: #1959e2 !important;
   }
   
-  .topnav .icon {
+  .topnav .icons {
     display: none;
   }
 
   @media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
+    .topnav a.icons {
       float: right;
       display: block;
     }
@@ -65,7 +65,7 @@
   
   @media screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
+    .topnav.responsive .icons {
       position: absolute;
       right: 0;
       top: 0;

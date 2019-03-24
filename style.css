@@ -155,7 +155,9 @@ box-shadow:3px 2px 6px 0px #00000066;
 .client-description{
     padding-left: 150px;
 }
-
+.client-mobile{
+    z-index: -1;
+}
 .client-mobile-2nd{
     padding-top: 60px;
     margin-left: -210px;
