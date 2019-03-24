@@ -73,4 +73,28 @@ hr{
 .navbar-light .navbar-nav .nav-link{
     color: #4e64fb !important;
 }
+.product-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
 } 
+.product-subtitle {
+    color: #11acec;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.product-description-text{
+    padding: 0px 5px;
+}
+.left{
+    text-align: center;
+    float: none;
+}
+.icons {
+     margin-top: 5px;
+    width: auto;
+    MARGIN-BOTTOM: 15px;
+    height: 50px;
+    margin-left: 0px;
+}
+}
