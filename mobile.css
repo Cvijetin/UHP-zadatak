@@ -71,7 +71,7 @@ hr{
     margin-right: 0px !important;
 }
 .navbar-light .navbar-nav .nav-link{
-    color: #4e64fb !important;
+    color: #41c6ff !important;
 }
 .product-title {
     font-size: 30px;
@@ -117,5 +117,12 @@ hr{
 }
 .social-media-wrapper{
     padding: 15px 0px;
+}
+.social{
+    margin-top: -95px;
+    overflow: hidden;
+}
+.licence-wrapper{
+    margin-bottom: 60px;
 }
 }
