@@ -90,11 +90,11 @@ width: 80%;
 .center{
     text-align: center;
 }
-hr{
+.small-border{
     border-radius: 0.45rem !important;
     width: 50px;
     border: 2px solid;
-    color: #00a5ea;
+    color: #00a6eb;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -116,12 +116,13 @@ hr{
 .cards{
     position: relative;
     text-align: center;
-    margin-left: 30px;
+    margin-right: 31px;
     height: 400px;
     border-radius: 0 !important;
     display: inline-block;
     background: linear-gradient(326deg, rgb(86, 77, 253) 0%, rgb(82, 92, 390) 8%, rgb(51, 186, 242) 100%);
 }
+
 
 .shadowcard{
     -moz-box-shadow:3px 2px 6px 0px #00000066;
@@ -243,7 +244,7 @@ margin-bottom: 7px;
 .gallery{
     width: auto;
     padding-bottom: 100px;
-    padding-top: 30px;
+    padding-top: 100px;
 }
   
 .team-section-subtitle{
@@ -275,6 +276,10 @@ margin-top: -20px;
     0%{opacity:0}
     100%{opacity:1}
 }
+
+.development-wrapper{
+    padding-bottom: 100px;
+}
 #counter{
     padding-top: 20px; 
 }
@@ -283,4 +288,58 @@ margin-top: -20px;
     font-weight: bold;
 }
 
+.counter-description{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
 
+.news{
+    background-color: #f9f9f9;
+    padding-top: 50px;
+    border-top: 2px solid #00a6eb;
+}
+
+.news-title{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.news-block{
+    overflow: hidden;
+    display: block;
+    margin-left: 5px;
+    width: 100%;
+}
+
+.news-date{
+    font-weight: bold;
+    margin-top: -8px;
+    color: #00a6eb;
+    font-size: 44px;
+    margin-bottom: 0px;
+}
+
+.news-month{
+    font-size: 25px;
+    color: #00a6eb;
+    font-weight: 300;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.date{
+    width: 20%
+}
+.news-subtitle-wrapper{
+    width: 80%;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.news-description{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
