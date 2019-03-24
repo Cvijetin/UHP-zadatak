@@ -8,16 +8,27 @@
 .service-graphic-wrapper img{
     width: auto;
 }
-
+.navbar.scrolled {
+    background-color: rgb(255, 255, 255) !important;
+    }
+.bg-light {
+    background-color: white !important;
+}
 h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .title-wrapper{
 text-align: center;
 padding-left: 0px;
 }
 .header-graphic{
-    padding: 0px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.graphic-wrapper img {
+    width: 100%;
+    padding-top: 20px;
 }
 hr{
     margin-bottom: 0px;
@@ -58,5 +69,8 @@ hr{
 .row{
     margin-left: 0px !important;
     margin-right: 0px !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #4e64fb !important;
 }
 } 

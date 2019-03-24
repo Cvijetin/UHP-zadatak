@@ -20,10 +20,23 @@ height: 1400px;
 }
 
 li{
-    padding-right: 15px;
+    padding-right: 40px;
     font-weight: bold;
 } 
 
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+ border-bottom: 2px solid white;
+}
+.navbar.scrolled {
+background-color: #4e64fb !important;
+}
   .header-graphic{
       padding-top: 200px;
       padding-bottom: 180px;

@@ -18,25 +18,44 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
     <!-- Helpers -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <section class="landing-page">
         <!-- Navigation -->
-        <div class="topnav" id="myTopnav">
-            <span><img class="logo" src="content/uhp-logo.svg" /></span>
-            <a href="#" class="menu">CONTACT</a>
-            <a href="#" class="select-menu">ABOUT US</a>
-            <a href="#" class="select-menu">PEOPLE</a>
-            <a href="#" class="select-menu">CAREER</a>
-            <a href="#" class="select-menu">NEWS</a>
-            <a href="#" class="select-menu">HOME</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="content/uhp-logo.svg"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              
+              <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEWS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CAREERS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">PEOPLE</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                      </li>
+                </ul>
+              </form>
+            </div>
+          </nav>
 
         <div class="row header-graphic">
             <div class="col-lg-6 col-md-4 col-sm-12 title-wrapper">
@@ -152,7 +171,6 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -162,35 +180,7 @@
                 x.className = "topnav";
             }
         }
-    </script>
-    <script>
-   
-$('.your-class').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-});
-    </script>
+    
 </body>
 
 </html>
