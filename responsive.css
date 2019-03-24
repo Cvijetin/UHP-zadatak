@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
 .landing-page{
     height: auto;
     margin-bottom: 50px;
@@ -127,5 +127,30 @@ hr{
 }
 .circle{
     padding-top: 8px;
+}
+}
+
+@media (min-width: 950px) and (max-width: 1280px) {
+    .licence-wrapper {
+        margin-top: 20px;
+        margin-bottom: 0px;
+
+  }
+  .social {
+    margin-top: 0px;
+  }
+
+  .client-mobile img {
+    width: auto;
+    max-width: 340px;
+    max-height: 430px;
+  }
+  .client-mobile-2nd {
+    padding-top: 60px;
+    margin-left: -135px;
+}
+.news-subtitle-wrapper {
+  
+    font-size: 18px;
 }
 }
