@@ -14,6 +14,9 @@
 .bg-light {
     background-color: white !important;
 }
+.logo{
+    margin-left: 20px;
+}
 h1{
     font-size: 30px;
 }
@@ -163,6 +166,9 @@ hr{
 .circle{
     padding-top: 8px;
 }
+.text-right{
+    padding-right: 10px;
+}
 }
 
 @media (min-width: 950px) and (max-width: 1350px) {
@@ -242,5 +248,8 @@ background-color: white !important;
     width: 35px;
     height: 40px;
     margin-left: 0px; 
+}
+.news-block{
+    padding-left: 0px;
 }
 }
