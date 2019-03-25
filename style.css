@@ -1,6 +1,4 @@
-body{
-    font-family: 'Open Sans';
-}
+
 .landing-page{
     background-image: url(content/background-image.png);
     background-repeat: no-repeat;
@@ -11,12 +9,7 @@ height: 1400px;
 }
 .logo{
     height: 69px;
-}
-.container{
-    padding: 0 !important;
-}
-.row{
-    margin: 0 !important;
+    margin-left: 40px;
 }
 
 .navbar-style{
@@ -37,6 +30,7 @@ height: 1400px;
 .navbar.scrolled {
 background-color: #4e64fb !important;
 }
+
   .header-graphic{
       padding-top: 200px;
       padding-bottom: 180px;
@@ -50,54 +44,12 @@ background-color: #4e64fb !important;
 .graphic-wrapper img{
 width: 80%;
 }
-  h1{
-      font-weight: bold;
-      font-size: 65px;
-  }
 
-  h2{
-      font-weight: 500;
-      font-size: 45px;
-  }
-
-  h3{
-      font-weight: bold;
-      color: white;
-      font-size: 18px;
-  }
-
-  .blue{
-      color: #00a5ea;
-  }
-
-  .cta-btn{
-    letter-spacing: 1px;
-    font-size: 14px;
-      width: 200px;
-      font-weight: bold;
-      color: white;
-      height: 50px;
-      background: linear-gradient(167deg, rgb(4, 86, 163) 0%, rgb(1, 84, 163) 8%, rgb(87, 164, 252) 100%);
-  }
-.btn{
-    border-radius: 0.45rem !important;
-}
 
 .cta-wrapper{
     padding-top: 20px;
 }
 
-.center{
-    text-align: center;
-}
-.small-border{
-    border-radius: 0.45rem !important;
-    width: 50px;
-    border: 2px solid;
-    color: #00a6eb;
-    text-align: center;
-    margin-bottom: 60px;
-}
 /* ---------------------------------------------------- services ----------------------------------------------- */
 .services-wrapper{
     padding-top: 100px;
@@ -193,22 +145,6 @@ margin-bottom: -10px
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.block{
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-.inline{
-    display: inline-block;
-}
-
-.left{
-    float: left;
-}
-
-.right{
-    float: right;
-}
 
 .product-description-title{
 font-weight: bold;
@@ -223,8 +159,8 @@ margin-bottom: 7px;
 
 .icons{
     margin-top: 25px;
-    width: auto;
-    height: 50px;
+    width: 35px;
+    height: 40px;
     margin-left: -70px;
 }
 
@@ -260,22 +196,6 @@ margin-top: -20px;
 .team-job{
     text-align: center;
     list-style-position: inside;
-}
-
-
-.star {
-    visibility: hidden;
-}
-
-.fadeIn {
-    -webkit-animation: animat_show 1.8s;
-    animation: animat_show 1.8s;
-    visibility: visible !important;
-}
-
-@-webkit-keyframes animat_show{
-    0%{opacity:0}
-    100%{opacity:1}
 }
 
 .development-wrapper{
@@ -368,9 +288,6 @@ padding-top: 30px;
 }
 
 /* ---------------------------------------------------- footer ---------------------------------------- */
-footer{
-    background-color: #002041;
-}
 
 .footer-logo-wrapper{
     text-align: center;
@@ -430,23 +347,6 @@ width: 80%;
     font-size: 20px;
 }
 
-.circle{
-    padding-top: 9px;
-    border: 1px solid white;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-
-.blue-circle{
-    background: #00a6eb;
-    padding-top: 10px;
-    width: 40px;
-    margin-right: 10px;
-    height: 40px;
-    border-radius: 50%;
-}
 .social-media-wrapper{
     display: block;
     overflow: hidden;
