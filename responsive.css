@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 950px) {
 .landing-page{
     height: auto;
@@ -28,6 +27,7 @@ padding-left: 0px;
 }
 
 .graphic-wrapper img {
+    margin-left: -20px;
     width: 100%;
     padding-top: 20px;
 }
@@ -186,6 +186,15 @@ hr{
     height: auto;
     margin-bottom: 50px;
     background-image: none;     
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #4e64fb  !important;
+}
+.nav-link:hover{
+ border-bottom: 2px solid white;
+}
+.navbar.scrolled {
+background-color: white !important;
 }
   .social {
     margin-top: 0px;
